@@ -1,0 +1,160 @@
+.delete-character-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .delete-character-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .delete-character-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .delete-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .delete-button:disabled:hover {
+    background-color: #ccc;
+  }
+  .delete-character-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the character name display */
+  .character-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the "Delete Character" button */
+  .delete-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Hover effect for the "Delete Character" button */
+  .delete-button:hover {
+    background-color: #d32f2f; /* Darker red */
+  }
+  
+  /* Style for the "Update Character" button */
+  .update-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for the "Update Character" button */
+  .update-button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  /* DeleteCharacterButton.css */
+
+.delete-character-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.character-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.delete-button,
+.update-button {
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.delete-button {
+  background-color: #ff4444;
+  color: white;
+}
+
+.update-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.update-form {
+  display: flex;
+  align-items: center;
+}
+
+.update-form input[type="text"] {
+  flex: 1;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.update-form button {
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.update-form button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+}
+
+.update-form button[type="button"] {
+  background-color: #ff4444;
+  color: white;
+}
+
+  

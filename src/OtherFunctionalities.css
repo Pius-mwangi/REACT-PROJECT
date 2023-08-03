@@ -1,0 +1,72 @@
+
+  /* OtherFunctionalities.css */
+
+.other-functionalities {
+    margin-top: 20px;
+  }
+  
+  .other-functionalities h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .random-functionalities-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .random-functionalities-container button {
+    background-color: #1f9ee9;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .random-functionalities-container button:hover {
+    background-color: #0d80b9;
+  }
+  
+  .random-functionalities-container .random-info {
+    background-color: #2d313a;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .random-functionalities-container .random-info h3 {
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .random-functionalities-container .random-info p {
+    color: #ddd;
+    margin: 5px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .random-functionalities-container .random-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
