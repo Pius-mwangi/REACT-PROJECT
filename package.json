@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "json-server": "^0.17.3"
   }
 }
