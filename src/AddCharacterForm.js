@@ -1,11 +1,10 @@
-// AddCharacterForm.js
-
 import React, { useState } from 'react';
 import './AddCharacterForm.css'; // Import the CSS file for this component
 
 function AddCharacterForm({ onAddCharacter }) {
   const [name, setName] = useState('');
   const [imageUrl, setImageUrl] = useState('');
+  const [image, setImage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -17,8 +16,8 @@ function AddCharacterForm({ onAddCharacter }) {
     // Create a new character object
     const newCharacter = {
       name: name,
-      image: imageUrl,
-      // Add any additional properties you want to include in the character object
+      image: imageUrl, // Use the imageUrl directly as the image property
+      additionalImage: image, // You can add additional properties for the image here if needed
     };
 
     // Send a POST request to the backend to add the new character
@@ -37,6 +36,7 @@ function AddCharacterForm({ onAddCharacter }) {
         // Reset the form fields
         setName('');
         setImageUrl('');
+        setImage('');
       })
       .catch((error) => {
         console.error('Error adding character:', error);
@@ -57,6 +57,12 @@ function AddCharacterForm({ onAddCharacter }) {
         placeholder="Image URL"
         value={imageUrl}
         onChange={(e) => setImageUrl(e.target.value)}
+      />
+      <input
+        type="url"
+        placeholder="Additional Image URL (optional)"
+        value={image}
+        onChange={(e) => setImage(e.target.value)}
       />
       <button type="submit">Add Character</button>
     </form>
